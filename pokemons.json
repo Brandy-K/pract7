@@ -1,0 +1,86 @@
+{
+  "pokemons": [
+    {
+
+      "id": "#0001 ",
+      "nom":"Bulbasaur",
+      "tipus":["planta","veneno"],
+      "pes": "6,9 kg",
+      "Altura":{
+        "mesura": 0.7,
+        "unitat": "m"
+      },
+      "estadisques":{
+        "velocidad": 3,
+        "fortalesa": 3,
+        "precion": 4,
+        "resistencia": 4
+
+      },
+      "moviments": [
+        {
+          "nom": "placaje",
+          "descripcio":"Es un movimiento de tipo normal introducido en la primera generación.",
+          "potencia": 40,
+          "contacte":"si"
+        }
+      ],
+      "image": {
+        "url": "https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png"
+      },
+      "evolucio": [
+        {
+          "nom": "Ivysaur",
+          "nivel": 16
+        },
+        {
+          "nom": "Venusaur",
+          "nivel": 32
+        }
+      ]
+
+    },
+    {
+      "id": "#0005",
+      "nom":"Charmeleon",
+      "tipus":"fire",
+      "pes": "19,0 kg",
+      "Altura":{
+        "mesura":1.1,
+        "unitat": "m"
+      },
+
+      "estadisques":{
+        "velocidad": 3,
+        "fortalesa": 2,
+        "precision": 3,
+        "resistencia": 2
+
+      },
+      "moviments": [
+        {
+          "nom": "Aranazo",
+          "descripcio":"es un movimiento de tipo normal introducido en la primera generación.",
+          "potencia": 40,
+          "contacte":"si"
+        }
+      ],
+      "image": {
+        "url": "https://images.wikidexcdn.net/mwuploads/wikidex/f/fb/latest/20200411222755/Charmeleon.png"
+      },
+      "evolucio": [
+        {
+          "nom": "Charmander",
+          "nivel": 16
+        },
+        {
+          "nom": "Charizard",
+          "nivel": 36
+        }
+      ]
+
+
+    }
+
+  ]
+}
